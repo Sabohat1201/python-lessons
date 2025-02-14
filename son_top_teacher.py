@@ -24,13 +24,13 @@ def sontop_pc(x=10):
         if quyi!=yuqori:
             taxmin=random.randint(quyi,yuqori)
         else:
-            quyi
+            taxmin=quyi
         javob=input(f"Siz {taxmin} sonini o'yladingiz: to'g'ri(t)"
                     f"men o'ylagan son bundan kattaroq(+), yoki kichikroq(-)").lower()
         if javob=='-':
             yuqori=taxmin-1
         elif javob=='+':
-            quyi=taxmin+641
+            quyi=taxmin+1
         else:
             break
     print(f"Men {taxminlar} ta taxmin bilan topdim!")
